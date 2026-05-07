@@ -306,6 +306,7 @@ def update_budget(budget_id):
     return jsonify({"message": "Бюджет оновлено"}), 200
 
 
-if __name__ == "__main__":
-    init_db()
+init_db()
+
+if name == "main":
     app.run(host="0.0.0.0", port=5000, debug=True)
