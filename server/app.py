@@ -308,5 +308,5 @@ def update_budget(budget_id):
 
 init_db()
 
-if name == "main":
+if name == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
