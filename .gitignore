@@ -1,0 +1,10 @@
+server/venv/
+server/finance.db
+pycache/
+*.pyc
+
+client/node_modules/
+client/dist/
+client/.env
+
+.vscode/
